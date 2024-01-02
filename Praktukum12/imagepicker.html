@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+    /* CSS styling */
+    #imageContainer {
+        margin-top: 30px;
+    }
+    </style>
+</head>
+<body>
+   <h1>Image Picker</h1> 
+   <select id="selectAnimal" onchange="displayImage()">
+    <option value="badak.jpeg" selected>Badak</option>
+    <option value="gajah.jpeg" selected>Gajah</option>
+    <option value="panda.jpeg" selected>Panda</option>
+    <option value="harimau.jpg" selected>Harimau</option>
+    <option value="jerapah.jpeg" selected>Jerapah</option>
+    <option value="singa.jpeg" selected>Singa</option>
+    <option value="zebra.jpeg" selected>Zebra</option>
+   </select>
+   <br>
+   <br>
+   
+   <div id="imageContainer">
+     <img id="displayedImage" src="zebra.jpeg" alt="pilih gambar" width="400" height="300">
+   </div>
+
+   <script>
+     function displayImage(){
+      const dropdown = document.getElementById("selectAnimal");
+      const selectedImage = dropdown.options[dropdown.selectedIndex].value;
+      const imageName = dropdown.options[dropdown.selectedIndex].text;
+
+      const displayedImage = document.getElementById("displayedImage");
+      displayedImage.src = selectedImage;
+
+      alert("Nama file gambar: " + imageName);
+    }
+   </script>
+    
+</body>
+</html>

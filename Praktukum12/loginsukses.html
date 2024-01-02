@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Sukses</title>
+</head>
+<body>
+  <h1>Login Sukses</h1>
+  <p>Selamat datang tiaraa! Anda berhasil login.</p>
+  <p>silahkan isi form dibawah ini!</p>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form>
+  <div class="form-group row">
+    <label for="Masukkan nama lengkap" class="col-4 col-form-label">Nama lengkap</label> 
+    <div class="col-8">
+      <input id="Masukkan nama lengkap" name="Masukkan nama lengkap" type="text" class="form-control" required="required">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="masukkan tempat tanggal lahir" class="col-4 col-form-label">tempat tanggal lahir</label> 
+    <div class="col-8">
+      <input id="masukkan tempat tanggal lahir" name="masukkan tempat tanggal lahir" type="text" class="form-control" required="required">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="type email" class="col-4 col-form-label">Email</label> 
+    <div class="col-8">
+      <input id="type email" name="type email" placeholder="email" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="masukkan alamat" class="col-4 col-form-label">Alamat Lengkap</label> 
+    <div class="col-8">
+      <textarea id="masukkan alamat" name="masukkan alamat" cols="40" rows="5" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-4">status</label> 
+    <div class="col-8">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="Sudah bekerja"> 
+        <label for="radio_0" class="custom-control-label">Sudah bekerja</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="Belum bekerja"> 
+        <label for="radio_1" class="custom-control-label">Belum bekerja</label>
+      </div>
+    </div>
+  </div> 
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

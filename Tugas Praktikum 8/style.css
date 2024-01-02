@@ -1,0 +1,36 @@
+style {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   min-height: 55vh;
+   flex-direction: column;
+   margin: 0;
+}
+header,footer {
+   background-color: khaki;
+   text-align: center;
+}
+#main{
+   display:flex;
+   flex: 2%;
+}
+#main>nav {
+   background-color: pink;
+   order: -1;
+   position: absolute;
+   left: -1;
+   top:-1;
+   height: 49vh;
+}
+header,footer,nav,article,aside {
+   padding: 1em
+}
+#main>article {
+flex: 55vw;
+text-align: end;
+}
+#main>aside {
+   background-color: aquamarine;
+   flex:  20vw;
+}

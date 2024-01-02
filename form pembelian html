@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiara</title>
+</head>
+  <h1>Laptop Store</h1>
+<body>
+ <header>
+  <fieldset>
+  <nav align="center">
+    <a href="#">Home |</a>
+    <a href="#">generate Link |</a>
+    <a href="#">Transaction History |</a>
+    <a href="#">Policy |</a>
+    <a href="#"> logout</a>
+  
+  </nav>
+  </fieldset>
+  <main style="display:flex;justify-content:center;">
+  <div style="display:block;margin-left:20px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWcg-Duxt0oKsm-Phq0a7z8Emi4P6bMXSENg&usqp=CAU"width="300">
+    </div>
+    <div style="display:block">
+  <p>laptop Store merupakan toko yang<br>menyediakan berbagai macam laptop keluaran terbaru, Untuk pemesanan silahkan isi form pemesanan berikut!</p>
+    <h2>Form Pemesanan</h2>
+   <form action="praktikum form pemesanan" method="post">
+     <fieldset style="width:300px">
+       <table>
+   <tr>
+   <td>Title Here:</td>
+     <td>
+   <input>
+     </td>
+   <tr>
+   <td>Description:</td>
+     <td>
+       <textarea name="Description" cols="40"rows="7"></textarea>
+     </td>
+       <tr>
+     <td>Account Number:</td>
+     <td>
+       <input type="number">
+     </td>
+     </tr>
+     <tr>
+        <td>Bank:</td>
+       <td>
+        <label for="bank"></label>
+        <select name="bank" id="bank">
+          <option>BRI</option>
+          <option>BCA</option>
+        </select>
+       </td>
+        </tr>
+        <tr>
+          <td>account holder:</td>
+          <td>
+          <input type="teks"name account holder>
+          </td>
+        </tr>
+        <tr>
+          <br>
+          <td>transaction:</td>
+          <td>
+          <label for="transaction"></label>
+          <select name="transaction" id="transaction">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox"name="send to mobile phone" value="send to mobile phone">send to mobile phone
+           </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox"name="send to email" value="send to email">send to email 
+          </td>
+        </tr>
+        <tr>
+          <td>Send to mobile phone:</td>
+          <td>
+            <input type="teks"name="send to mobile phone">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Send to email:</td>
+          <td>
+            <input type="teks"name="send to email">
+          </td>
+        </tr>
+         </div>
+      </main>
+      <td>
+      <button type="submit">Generate Nobr Link</button>
+    </td>
+  </fieldset>   
+</body>
+</html>

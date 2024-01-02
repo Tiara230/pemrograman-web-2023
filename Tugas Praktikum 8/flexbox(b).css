@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+   
+}
+
+
+header{
+    background-color: darkturquoise;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    background-color: rgb(43, 172, 172);
+    padding: 10px;
+    flex: 1;
+}
+
+article {
+    background-color: rgb(158, 43, 43);
+    padding: 10px;
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    padding: 20px;
+    max-width: 15%;
+}
+
+footer{
+    background-color: darkturquoise;
+    padding: 10px;
+    text-align: center;
+}
